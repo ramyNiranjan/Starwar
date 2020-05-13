@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Monoton&family=Pacifico&family=Poppins:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+  transition: all 0.4s;
+  height: 100vh;
+  width: 100%;
+  background: url("../assets/back1.gif") center center no-repeat;
+  background-size: cover;
+}

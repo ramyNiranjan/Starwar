@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      async
+      defer
+      src="https://kit.fontawesome.com/7653ca745b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Star-Wars</title>
+  </head>
+  <body>
+    <header class="heading">
+      <h1 class="heading__title">StarWars</h1>
+      <div class="heading__container">
+        <span class="heading__search"><i class="fas fa-search"></i></span>
+        <input
+          class="heading__search-input"
+          type="text"
+          placeholder="search for characters"
+        />
+        <span class="heading__search-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-container">
+      <h1 class="main-container__headline">StarWars Characters</h1>
+      <h2 class="search-results__title">Search Results</h2>
+      <div class="star-character"></div>
+      <div class="error">
+        <h4 class="error__title">Nothing Find</h4>
+      </div>
+    </main>
+    <ul class="pagination"></ul>
+    <script src="./index.js"></script>
+  </body>
+</html>

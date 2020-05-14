@@ -31,7 +31,7 @@
   &__card {
     background: #020a08;
     text-align: center;
-    padding: 10px;
+    padding: 4px;
     color: $card-clr;
     cursor: pointer;
 
@@ -144,6 +144,11 @@
       color: $headline-clr;
       font-weight: bolder;
       margin-bottom: 15px;
+    }
+  }
+  .star-character {
+    &__card {
+      padding: 10px;
     }
   }
 }

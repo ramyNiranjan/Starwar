@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', init)
 
 
 
-
 // display characters
 charactersHandler()
 //header search animation 

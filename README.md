@@ -19,3 +19,5 @@ Build assets for production
 ```sh
 npm run build
 ```
+
+###### [Click here to see live demo](https://starwarscharacter.netlify.app/)
